@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.SplashActivity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name ="textBackground">@color/colorAccent</item>
+        <item name="android:textColor">#70150D0D</item>
+    </style>
+    <style name="Theme.SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name ="textBackground">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:windowBackground">@drawable/splash_activity_background</item>
+    </style>
+    <style name="Theme.RedProgressBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name ="textBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+</resources>
